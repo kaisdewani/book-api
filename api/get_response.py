@@ -1,6 +1,6 @@
 import json
 from flask import Flask, Response, abort 
-from .utils import JSON_MIME_TYPE, search_book
+from .utils import JSON_MIME_TYPE
 
 app = Flask(__name__)
 
